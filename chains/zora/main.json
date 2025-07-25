@@ -33,14 +33,11 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [
-        "fdv",
-        "market_cap"
-    ],
+    "api_api_exclude_metrics": [],
 
     "aliases_l2beat": "zora",
     "aliases_l2beat_slug": "zora",
-    "aliases_coingecko": null,
+    "aliases_coingecko": "zora",
     "aliases_rhino": null,
     "aliases_blockscout_url": "https://explorer.zora.energy/api/v2/",
     "aliases_defillama": "zora",
@@ -69,8 +66,8 @@
 
     "cross_check_type": "l2beat",
     
-    "circulating_supply_token_address": null,
-    "circulating_supply_token_deployment_date": null,
-    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_address": "0x1111111111166b7fe7bd91427724b487980afc69",
+    "circulating_supply_token_deployment_date": "2025-04-23",
+    "circulating_supply_token_deployment_origin_key": "base",
     "circulating_supply_token_circulating_supply_function": null
 }
