@@ -48,7 +48,7 @@
     "aliases_defillama": "linea",
     "aliases_dune": "linea",
     
-    "deployed_supplyreader": null,
+    "deployed_supplyreader": "2026-02-11",
 
     "metadata_chain_type": "rollup",
     "metadata_description": "Linea is a developer-friendly ZK Rollup by ConsenSys, enhancing Ethereum by enabling a new wave of decentralized applications.",

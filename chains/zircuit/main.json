@@ -13,7 +13,7 @@
     "aliases_defillama": "zircuit",
     "aliases_dune": null,
     
-    "deployed_supplyreader": null,
+    "deployed_supplyreader": "2026-02-11",
 
     "runs_aggregate_blockspace": true,
     "runs_aggregate_addresses ": true,

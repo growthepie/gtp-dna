@@ -47,7 +47,7 @@
     "aliases_defillama": "polygon",
     "aliases_dune": "polygon",
     
-    "deployed_supplyreader": null,
+    "deployed_supplyreader": "2026-02-11",
 
     "metadata_description": "Polygon Proof-of-Stake is an EVM sidechain for Ethereum, planning to become a Validium. The bridge is validated by Polygon validators.",
     "metadata_symbol": "POL",
