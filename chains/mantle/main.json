@@ -48,7 +48,7 @@
     "aliases_defillama": "mantle",
     "aliases_dune": "mantle",
     
-    "deployed_supplyreader": "2025-09-23",
+    "deployed_supplyreader": "2026-02-11",
 
     "metadata_description": "Mantle is an OVM based EVM-compatible rollup. Public launch was in July 2023.",
     "metadata_symbol": "MNT",
