@@ -2,7 +2,7 @@
     "origin_key": "blast",
     "caip2": "eip155:81457",
     "da_mapping": null,
-    "evm_chain_id": 81457.0,
+    "evm_chain_id": 81457,
     "name": "Blast",
     "name_short": "Blast",
     "bucket": "Others",
@@ -23,11 +23,11 @@
     },
     "chain_type": "L2",
 
-    "api_in_api_main": true,
+    "api_in_api_main": false,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "PROD",
+    "api_api_deployment_flag": "ARCHIVE",
     "api_api_exclude_metrics": [
         "blockspace"
     ],
@@ -87,8 +87,8 @@
     },
 
     "runs_aggregate_blockspace": false,
-    "runs_aggregate_addresses ": true,
-    "runs_contract_metadata": true,
+    "runs_aggregate_addresses ": false,
+    "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
@@ -96,7 +96,7 @@
         "fact_active_addresses"
     ],
 
-    "backfiller_backfiller_on": true,
+    "backfiller_backfiller_on": false,
     "backfiller_batch_size": 20,
 
     "cross_check_type": "l2beat",
