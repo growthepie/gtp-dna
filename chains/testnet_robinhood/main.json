@@ -1,0 +1,124 @@
+{
+    "origin_key": "testnet_robinhood",
+    "caip2": "eip155:46630",
+    "evm_chain_id": 46630,
+    "name": "Testnet Robinhood",
+    "name_short": "Testnet Robinhood",
+
+    "aliases_l2beat": null,
+    "aliases_l2beat_slug": null,
+    "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
+    "aliases_rhino": null,
+    "aliases_defillama": null,
+    "aliases_dune": null,
+    
+    "deployed_supplyreader": null,
+
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_aggregate_apps": false,
+    "runs_contract_metadata": false,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
+
+    "archive_tables": [
+        "fact_active_addresses",
+        "blockspace_fact_contract_level_hourly"
+    ],
+
+    "bucket": "Arbitrum Chains",
+
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#AB3A07",
+            "#AB3A07"
+        ],
+        "dark": [
+            "#F4986E",
+            "#F4986E"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+
+    "metadata_description": "This is a testnet for the Robinhood chain.",
+    "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
+    "metadata_launch_date": "2026-08-10",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimium",
+    "metadata_purpose": "Universal (EVM)",
+    "metadata_stack": {
+        "label": "Arbitrum Nitro",
+        "url": "https://arbitrum.io/orbit"
+    },
+    "metadata_raas": "Self-hosted",
+
+    "links": {
+        "website": "https://robinhood.com/eu/de/chain/",
+        "docs": "https://docs.robinhood.com/chain",
+        "github": null,
+        "socials": {
+            "Twitter": "https://x.com/RobinhoodApp"
+        },
+        "block_explorers": {
+            "Nova Arbiscan": "https://explorer.testnet.chain.robinhood.com/"
+        }
+    },
+
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": false,
+    "api_in_api_labels": false,
+    "api_in_api_apps": true,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": ["fdv", "market_cap", "profit", "tvl", "stables_mcap"],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "active",
+        "blockspace": "active"
+    },
+
+    "backfiller_backfiller_on": true,
+    "backfiller_batch_size": 10,
+
+    "cross_check_type": "l2beat",
+
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null,
+
+    "events": [
+        {
+            "date": "2022-08-09",
+            "type": "mainnet_launch",
+            "title": "Arbitrum Nova Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Launch of a new chain using AnyTrust technology, designed for high-volume applications like gaming and social media.",
+            "source": "https://medium.com/offchainlabs/arbitrum-nova-is-live-and-open-to-the-public-a0a552591456"
+        },
+        {
+            "date": "2022-08-09",
+            "type": "partnership",
+            "title": "Reddit Partnership",
+            "short_title": "Reddit Partnership",
+            "description": "Announced a partnership with Reddit to scale its blockchain-based Community Points system, bringing a major social platform onto the network.",
+            "source": "https://www.reddit.com/r/CryptoCurrency/comments/wk75p2/scaling_reddits_community_points_with_arbitrum/"
+        },
+        {
+            "date": "2023-03-23",
+            "type": "token_launch",
+            "title": "ARB Token Airdrop Eligibility",
+            "short_title": "ARB Airdrop",
+            "description": "Users of Arbitrum Nova were included in the eligibility criteria for the ARB token airdrop, rewarding its early adopters.",
+            "source": "https://docs.arbitrum.foundation/airdrop-eligibility-distribution-specifications"
+        }
+    ]
+}
