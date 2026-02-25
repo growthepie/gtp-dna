@@ -29,14 +29,15 @@
     "api_in_api_fees": true,
     "api_in_api_economics": true,
     "api_in_api_labels": true,
+
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": ["blockspace"],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
         "economics": "soon",
         "apps": "locked",
-        "blockspace": "active"
+        "blockspace": "locked"
     },
 
     "aliases_l2beat": "linea",
@@ -97,7 +98,8 @@
 
     "archive_tables": [
         "fact_active_addresses",
-        "blockspace_fact_contract_level_hourly"
+        "blockspace_fact_contract_level_hourly",
+        "uops"
     ],
 
     "backfiller_backfiller_on": true,
