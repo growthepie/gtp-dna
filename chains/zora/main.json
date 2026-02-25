@@ -30,7 +30,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": ["blockspace"],
 
     "aliases_l2beat": "zora",
     "aliases_l2beat_slug": "zora",
@@ -48,7 +48,7 @@
         "fundamentals": "active",
         "economics": "soon",
         "apps": "locked",
-        "blockspace": "active"
+        "blockspace": "locked"
     },
 
     "metadata_description": "Zora is a fully EVM compatible optimistic rollup built on the OP Stack with focus on NFTs.",

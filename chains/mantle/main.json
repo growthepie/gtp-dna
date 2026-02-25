@@ -37,7 +37,7 @@
         "fundamentals": "active",
         "economics": "locked",
         "apps": "locked",
-        "blockspace": "locked"
+        "blockspace": "active"
     },
 
     "aliases_l2beat": "mantle",
