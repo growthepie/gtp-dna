@@ -99,7 +99,8 @@
 
     "archive_tables": [
         "fact_active_addresses_contract",
-        "blockspace_fact_contract_level_hourly"
+        "blockspace_fact_contract_level_hourly",
+        "uops"
     ],
 
     "backfiller_backfiller_on": null,
