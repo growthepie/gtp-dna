@@ -1205,11 +1205,19 @@ zero_network:
     - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-10-22)"
+      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
+    - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25)"
+    - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-03-24)"
   beacon:
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: null
