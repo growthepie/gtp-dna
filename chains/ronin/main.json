@@ -96,6 +96,11 @@
 
     "cross_check_type": null,
 
+    "circulating_supply_token_address": "0xc7cfbae0e46103106e4567a69dd1749329ddde18",
+    "circulating_supply_token_deployment_date": "2022-01-27",
+    "circulating_supply_token_deployment_origin_key": "ronin",
+    "circulating_supply_token_circulating_supply_function": null,
+
     "events": [
         {
             "date": "2021-01-25",
