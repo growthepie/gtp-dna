@@ -1956,8 +1956,8 @@ coin_mapping = [
             "polymarket-usd"
         ],
         "metric_key": "direct",
-        "bridged_origin_chain": None,
-        "bridged_origin_token_id": None,
+        "bridged_origin_chain": "polygon_pos",
+        "bridged_origin_token_id": "circlefin_usdce",
         "fiat": "usd",
         "logo": "https://coin-images.coingecko.com/coins/images/102173037/large/polymarket.png?1777389002",
         "color_hex": "#2e5cff"
