@@ -2084,7 +2084,11 @@ megaeth:
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
       method: "0xca0dc973"
-      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27, last used 2026-05-08)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0x01853f268b170d4a15d0c3ae905757b5ec8375f3"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2026-05-08)"
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: null
       method: "0x2810e1d6"
@@ -2093,7 +2097,11 @@ megaeth:
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
       method: "0xca0dc973"
-      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27, last used 2026-05-08)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0x01853f268b170d4a15d0c3ae905757b5ec8375f3"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2026-05-08)"
   eigenda:
     - namespace: "0x42b5ea5238752cc6f70d93fa4249feae480a0b39"
 
