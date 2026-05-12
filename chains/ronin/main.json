@@ -29,7 +29,7 @@
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_in_api_user_insights": false,
-    "api_api_deployment_flag": "DEV",
+    "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
         "blockspace"
     ],
