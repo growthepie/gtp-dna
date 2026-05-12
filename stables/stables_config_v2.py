@@ -1947,6 +1947,20 @@ coin_mapping = [
         "fiat": "cny",
         "logo": "https://coin-images.coingecko.com/coins/images/70634/large/AnchorX_logo_RGB-01.png?1762887300",
         "color_hex": "#1A5F9A"
+    },
+    {
+        "owner_project": "polymarket",
+        "token_id": "polymarket_pusd",
+        "symbol": "pUSD",
+        "coingecko_id": [
+            "polymarket-usd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/102173037/large/polymarket.png?1777389002",
+        "color_hex": "#2e5cff"
     }
 ]
 
@@ -2807,7 +2821,10 @@ address_mapping = {
         },
         "circlefin_usdce": {
             "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-            "decimals": 6
+            "decimals": 6,
+            "exclude_balances": [
+                "0xc417fd8e9661c0d2120b64a04bb3278c17e99db1" # pUSD collateral
+            ]
         },
         "tetherto_usdt0": {
             "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
@@ -2969,6 +2986,10 @@ address_mapping = {
         "idrx_idrx": {
             "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
             "decimals": 0
+        },
+        "polymarket_pusd": {
+            "address": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
+            "decimals": 6
         }
     },
     "arbitrum": {

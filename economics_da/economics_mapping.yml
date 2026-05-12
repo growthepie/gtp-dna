@@ -911,9 +911,10 @@ mantle:
     - from_address: "0x2f40D796917ffB642bD2e2bdD2C762A5e40fd749"
       to_address: "0xFFEEDDCcBbAA0000000000000000000000000000"
       method: null
-      comment: "commit blob (used for one day 2025-03-19)"
+      comment: "commit blob (used since 2025-03-19)"
   eigenda:
     - namespace: "0x24f0a3716805e8973bf48eb908d6d4a2f34af785"
+      comment: "last used 2026-04-16"
 
 polygon_pos:
   name: "Polygon"
@@ -1205,11 +1206,19 @@ zero_network:
     - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-10-22)"
+      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
+    - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25)"
+    - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-03-24)"
   beacon:
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: null
