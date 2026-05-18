@@ -169,6 +169,10 @@ gravity:
       to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
       method: "0x8f111f3c"
       comment: "addSequencerL2BatchFromOrigin (first used 2024-05-19)"
+    - from_address: null
+      to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
+      method: "0x69cacded"
+      comment: "new SequencerInbox batch method (first used 2026-02-09)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABH1QsY4w6WU="
 
