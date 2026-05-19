@@ -2248,3 +2248,15 @@ xlayer:
       to_address: null
       method: null
       comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
+
+ronin:
+  name: "Ronin"
+  l1:
+    - from_address: "0x9aA8feACbB42659a806cDD6933ab3982586824F1"
+      to_address: "0x003A7A2d3129838Adb01c8d9b7DA62Ac6Ec27961"
+      method: null
+      comment: "Commit Batch (calldata, type 2) (first used 2026-05-12)"
+    - from_address: null
+      to_address: "0x45dA2CD511DA5FEAa535eBF166E628314a65843a"
+      method: "0x82ecf2f6"
+      comment: "create, DisputeGameFactory (first used 2026-05-12)"
