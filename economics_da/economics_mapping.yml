@@ -1339,7 +1339,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0x47faad14"
-      comment: "proposeBatch (first used 2025-05-21)"
+      comment: "proposeBatch (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0x9791e644"
+      comment: "proposeBatch on new MainnetInbox (first used 2026-04-02)"
     - from_address: null
       to_address: null
       method: "0x8778209d"
@@ -1347,7 +1351,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0xc9cc2843"
-      comment: "proveBatches (first used 2025-05-21)"
+      comment: "proveBatches (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0xea191743"
+      comment: "proveBatches on new MainnetInbox (first used 2026-04-03)"
     - from_address: null
       to_address: null
       method: "0x10d008bd"
@@ -1384,7 +1392,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0x47faad14"
-      comment: "proposeBatch (first used 2025-05-21)"
+      comment: "proposeBatch (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0x9791e644"
+      comment: "proposeBatch on new MainnetInbox (first used 2026-04-02)"
 
 rhino:
   name: "rhinofi"
