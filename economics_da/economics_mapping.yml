@@ -244,6 +244,10 @@ base:
       to_address: "0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
       method: "0x82ecf2f6"
       comment: "create (first used 2024-10-30)"
+    - from_address: null
+      to_address: "0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
+      method: "0x1011f377"
+      comment: "create (new variant, first used 2026-05-26)"
     - from_address: "0x8Ca1E12404d16373Aef756179B185F27b2994F3a"
       to_address: null
       method: "0x2810e1d6"
