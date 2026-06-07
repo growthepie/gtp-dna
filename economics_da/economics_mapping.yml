@@ -1709,7 +1709,11 @@ swell:
     - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
       to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
       method: null
-      comment: "Commit Blob (first used 2025-04-05)"
+      comment: "Commit Blob (first used 2025-04-05, last used 2026-06-05)"
+    - from_address: "0x37804a4f63ab1dcf96a48b1dce8c03492f539fe9"
+      to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
+      method: null
+      comment: "Commit Blob (first used 2026-06-05)"
     - from_address: "0xA2Acb8142b64fabda103DA19b0075aBB56d29FbD"
       to_address: null
       method: "0x82ecf2f6"
@@ -1750,7 +1754,11 @@ swell:
     - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
       to_address: null
       method: null
-      comment: "Commit Blob (first used 2025-04-05)"
+      comment: "Commit Blob (first used 2025-04-05, last used 2026-06-05)"
+    - from_address: "0x37804a4f63ab1dcf96a48b1dce8c03492f539fe9"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2026-06-05)"
 
 ink:
   name: "Ink"
