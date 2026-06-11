@@ -83,7 +83,7 @@
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": ["blockspace", "app_revenue"],
+    "api_api_exclude_metrics": ["blockspace"],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",

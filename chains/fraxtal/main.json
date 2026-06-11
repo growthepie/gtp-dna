@@ -87,7 +87,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": ["blockspace", "fees", "rent_paid", "profit", "txcosts"],
+    "api_api_exclude_metrics": ["blockspace", "fees", "profit", "txcosts"],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",

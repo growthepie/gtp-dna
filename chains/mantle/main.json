@@ -26,10 +26,7 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [
-        "rent_paid",
-        "profit"
-    ],
+    "api_api_exclude_metrics": [],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
