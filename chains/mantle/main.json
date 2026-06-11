@@ -26,7 +26,9 @@
     "api_in_api_economics": false,
     "api_in_api_labels": false,
     "api_api_deployment_flag": "PROD",
-    "api_api_exclude_metrics": [],
+    "api_api_exclude_metrics": [
+        "profit"
+    ],
     "api_tab_status": {
         "overview": "active",
         "fundamentals": "active",
