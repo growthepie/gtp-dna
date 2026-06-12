@@ -1961,6 +1961,20 @@ coin_mapping = [
         "fiat": "usd",
         "logo": "https://coin-images.coingecko.com/coins/images/102173037/large/polymarket.png?1777389002",
         "color_hex": "#2e5cff"
+    },
+    {
+        "owner_project": None,
+        "token_id": "tbd_cadd",
+        "symbol": "CADD",
+        "coingecko_id": [
+            "cad-digital"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cad",
+        "logo": "https://coin-images.coingecko.com/coins/images/102173086/large/CADD_Icon-Colour.png?1777732206",
+        "color_hex": "#D52B1E"
     }
 ]
 
@@ -2349,6 +2363,10 @@ address_mapping = {
         "allunity_chfau": {
             "address": "0xbd4dfc058eb95b8de5ceaf39966a1a70f5556f78",
             "decimals": 6
+        },
+        "tbd_cadd": {
+            "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+            "decimals": 18
         }
     },
     "zksync_era": {
@@ -2696,6 +2714,10 @@ address_mapping = {
         },
         "twin-finance_vent": {
             "address": "0xa1685112cb61210ab2a929c9ce370a4fd381d8be",
+            "decimals": 18
+        },
+        "tbd_cadd": {
+            "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
             "decimals": 18
         }
     },
