@@ -48,7 +48,7 @@
     "metadata_description": "MegaETH is a real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
     "metadata_symbol": "MEGA",
     "metadata_gas_token": "ETH",
-    "metadata_launch_date": "2025-12-15",
+    "metadata_launch_date": "2026-02-09",
     "metadata_da_layer": "EigenDA",
     "metadata_technology": "Optimistic Rollup",
     "metadata_purpose": "Universal (EVM)",
@@ -93,6 +93,22 @@
     "circulating_supply_token_deployment_origin_key": "megaeth",
     "circulating_supply_token_circulating_supply_function": "totalSupply",
     "events": [
+        {
+            "date": "2026-04-30",
+            "type": "token_launch",
+            "title": "MEGA Token Launch",
+            "short_title": "MEGA Token Launch",
+            "description": "The MEGA token generation event launched after MegaETH reached its KPI milestone on April 23, 2026.",
+            "source": "https://www.megaeth.com/blog-news"
+        },
+        {
+            "date": "2026-02-09",
+            "type": "mainnet_launch",
+            "title": "Public Mainnet Launch",
+            "short_title": "Public Mainnet",
+            "description": "MegaETH launched its public mainnet, marking the network's public mainnet debut after the restricted Frontier Net phase.",
+            "source": "https://forklog.com/"
+        },
         {
             "date": "2026-01-22",
             "type": "ecosystem_event",
