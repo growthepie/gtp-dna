@@ -1963,8 +1963,8 @@ coin_mapping = [
         "color_hex": "#2e5cff"
     },
     {
-        "owner_project": None,
-        "token_id": "tbd_cadd",
+        "owner_project": "tetra-cadd",
+        "token_id": "tetra-cadd_cadd",
         "symbol": "CADD",
         "coingecko_id": [
             "cad-digital"
@@ -2424,7 +2424,7 @@ address_mapping = {
             "address": "0xbd4dfc058eb95b8de5ceaf39966a1a70f5556f78",
             "decimals": 6
         },
-        "tbd_cadd": {
+        "tetra-cadd_cadd": {
             "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
             "decimals": 18
         },
@@ -2784,7 +2784,7 @@ address_mapping = {
             "address": "0xa1685112cb61210ab2a929c9ce370a4fd381d8be",
             "decimals": 18
         },
-        "tbd_cadd": {
+        "tetra-cadd_cadd": {
             "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
             "decimals": 18
         }
