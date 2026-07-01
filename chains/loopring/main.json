@@ -23,11 +23,11 @@
     },
     "chain_type": "L2",
 
-    "api_in_api_main": true,
+    "api_in_api_main": false,
     "api_in_api_fees": false,
     "api_in_api_economics": false,
     "api_in_api_labels": false,
-    "api_api_deployment_flag": "PROD",
+    "api_api_deployment_flag": "ARCHIVE",
     "api_api_exclude_metrics": [
         "blockspace",
         "profit",
@@ -90,7 +90,7 @@
     },
 
     "runs_aggregate_blockspace": false,
-    "runs_aggregate_addresses ": true,
+    "runs_aggregate_addresses ": false,
     "runs_contract_metadata": false,
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
@@ -102,7 +102,7 @@
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
 
-    "cross_check_type": "l2beat",
+    "cross_check_type": null,
     
     "circulating_supply_token_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
     "circulating_supply_token_deployment_date": "2019-04-11",
