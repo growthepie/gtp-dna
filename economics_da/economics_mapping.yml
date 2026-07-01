@@ -169,6 +169,10 @@ gravity:
       to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
       method: "0x8f111f3c"
       comment: "addSequencerL2BatchFromOrigin (first used 2024-05-19)"
+    - from_address: null
+      to_address: "0x8D99372612e8cFE7163B1a453831Bc40eAeb3cF3"
+      method: "0x69cacded"
+      comment: "new SequencerInbox batch method (first used 2026-02-09)"
   celestia:
     - namespace: "AAAAAAAAAAAAAAAAAAAAAAAAAAAABH1QsY4w6WU="
 
@@ -240,6 +244,10 @@ base:
       to_address: "0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
       method: "0x82ecf2f6"
       comment: "create (first used 2024-10-30)"
+    - from_address: null
+      to_address: "0x43edB88C4B80fDD2AdFF2412A7BebF9dF42cB40e"
+      method: "0x1011f377"
+      comment: "create (new variant, first used 2026-05-26)"
     - from_address: "0x8Ca1E12404d16373Aef756179B185F27b2994F3a"
       to_address: null
       method: "0x2810e1d6"
@@ -1206,11 +1214,19 @@ zero_network:
     - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22)"
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: "0x5D8ba173Dc6C3c90C8f7C04C9288BeF5FDbAd06E"
       method: null
-      comment: "commitBatchesSharedBridge (first used 2024-10-22)"
+      comment: "commitBatchesSharedBridge (first used 2024-10-22, last used 2025-03-24)"
+    - from_address: "0x0f9b807d5b0ce12450059b425dc35c727d65cb2f"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "executeBatchesSharedBridge & proveBatchesSharedBridge (first used 2025-03-25)"
+    - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
+      to_address: "0x8c0Bfc04AdA21fd496c55B8C50331f904306F564"
+      method: null
+      comment: "commitBatchesSharedBridge (first used 2025-03-24)"
   beacon:
     - from_address: "0x479b7c95b9509e1a834c994fc94e3581aa8a73b9"
       to_address: null
@@ -1327,7 +1343,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0x47faad14"
-      comment: "proposeBatch (first used 2025-05-21)"
+      comment: "proposeBatch (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0x9791e644"
+      comment: "proposeBatch on new MainnetInbox (first used 2026-04-02)"
     - from_address: null
       to_address: null
       method: "0x8778209d"
@@ -1335,7 +1355,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0xc9cc2843"
-      comment: "proveBatches (first used 2025-05-21)"
+      comment: "proveBatches (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0xea191743"
+      comment: "proveBatches on new MainnetInbox (first used 2026-04-03)"
     - from_address: null
       to_address: null
       method: "0x10d008bd"
@@ -1372,7 +1396,11 @@ taiko:
     - from_address: null
       to_address: null
       method: "0x47faad14"
-      comment: "proposeBatch (first used 2025-05-21)"
+      comment: "proposeBatch (first used 2025-05-21, last used 2026-04-02)"
+    - from_address: null
+      to_address: "0x6f21C543a4aF5189eBdb0723827577e1EF57ef1f"
+      method: "0x9791e644"
+      comment: "proposeBatch on new MainnetInbox (first used 2026-04-02)"
 
 rhino:
   name: "rhinofi"
@@ -1681,7 +1709,11 @@ swell:
     - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
       to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
       method: null
-      comment: "Commit Blob (first used 2025-04-05)"
+      comment: "Commit Blob (first used 2025-04-05, last used 2026-06-05)"
+    - from_address: "0x37804a4f63ab1dcf96a48b1dce8c03492f539fe9"
+      to_address: "0x005dE5857e38dFD703a1725c0900E9C6f24cbdE0"
+      method: null
+      comment: "Commit Blob (first used 2026-06-05)"
     - from_address: "0xA2Acb8142b64fabda103DA19b0075aBB56d29FbD"
       to_address: null
       method: "0x82ecf2f6"
@@ -1722,7 +1754,11 @@ swell:
     - from_address: "0xeb18EA5dEDeE42e7af378991DFEb719D21c17b4C"
       to_address: null
       method: null
-      comment: "Commit Blob (first used 2025-04-05)"
+      comment: "Commit Blob (first used 2025-04-05, last used 2026-06-05)"
+    - from_address: "0x37804a4f63ab1dcf96a48b1dce8c03492f539fe9"
+      to_address: null
+      method: null
+      comment: "Commit Blob (first used 2026-06-05)"
 
 ink:
   name: "Ink"
@@ -1751,6 +1787,10 @@ ink:
       to_address: null
       method: "0x472777c6"
       comment: "attack, by central resolver (first used 2025-01-14)"
+    - from_address: "0x837c4C12b54231250C68A80ea7c2181A6Bd5EaA9"
+      to_address: null
+      method: "0x7b0f0adc"
+      comment: "defend, by central resolver (first used 2026-06-09, last used 2026-06-09)"
   beacon:
     - from_address: "0x500d7Ea63CF2E501dadaA5feeC1FC19FE2Aa72Ac"
       to_address: null
@@ -2076,7 +2116,11 @@ megaeth:
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
       method: "0xca0dc973"
-      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27, last used 2026-05-08)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0x01853f268b170d4a15d0c3ae905757b5ec8375f3"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2026-05-08)"
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: null
       method: "0x2810e1d6"
@@ -2085,7 +2129,11 @@ megaeth:
     - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
       to_address: "0xE4e456c64B9b0de5FE8a90d809180cA71534D623"
       method: "0xca0dc973"
-      comment: "state root proposal via KailuaTreasury (first used 2025-11-27)"
+      comment: "state root proposal via KailuaTreasury (first used 2025-11-27, last used 2026-05-08)"
+    - from_address: "0x6644d495d22b0d25e904098d61520c95befc8ec5"
+      to_address: "0x01853f268b170d4a15d0c3ae905757b5ec8375f3"
+      method: "0xca0dc973"
+      comment: "state root proposal via KailuaTreasury (first used 2026-05-08)"
   eigenda:
     - namespace: "0x42b5ea5238752cc6f70d93fa4249feae480a0b39"
 
@@ -2228,3 +2276,15 @@ xlayer:
       to_address: null
       method: null
       comment: "blob batch submission (first used 2025-10-27, last used 2025-12-24)"
+
+ronin:
+  name: "Ronin"
+  l1:
+    - from_address: "0x9aA8feACbB42659a806cDD6933ab3982586824F1"
+      to_address: "0x003A7A2d3129838Adb01c8d9b7DA62Ac6Ec27961"
+      method: null
+      comment: "Commit Batch (calldata, type 2) (first used 2026-05-12)"
+    - from_address: null
+      to_address: "0x45dA2CD511DA5FEAa535eBF166E628314a65843a"
+      method: "0x82ecf2f6"
+      comment: "create, DisputeGameFactory (first used 2026-05-12)"

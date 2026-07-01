@@ -1963,6 +1963,84 @@ coin_mapping = [
         "color_hex": "#2e5cff"
     },
     {
+        "owner_project": "tetra-cadd",
+        "token_id": "tetra-cadd_cadd",
+        "symbol": "CADD",
+        "coingecko_id": [
+            "cad-digital"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cad",
+        "logo": "https://coin-images.coingecko.com/coins/images/102173086/large/CADD_Icon-Colour.png?1777732206",
+        "color_hex": "#D52B1E"
+    },
+    {
+        "owner_project": "deuro",
+        "token_id": "deuro_deuro",
+        "symbol": "DEURO",
+        "coingecko_id": [
+            "decentralized-euro"
+        ],
+        "metric_key": "bridged",
+        "bridged_origin_chain": "ethereum",
+        "bridged_origin_token_id": "deuro_deuro",
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/55108/large/dEuro_CoinLogo_200px.png?1743753944",
+        "color_hex": "#1A4FA0"
+    },
+    {
+        "owner_project": "gyen",
+        "token_id": "gyen_gyen",
+        "symbol": "GYEN",
+        "coingecko_id": [
+            "gyen"
+        ],
+        "metric_key": "bridged",
+        "bridged_origin_chain": "ethereum",
+        "bridged_origin_token_id": "gyen_gyen",
+        "fiat": "jpy",
+        "logo": "https://coin-images.coingecko.com/coins/images/14191/large/icon_gyen_200_200.png?1696513909",
+        "color_hex": "#00A0E9"
+    },
+    {
+        "owner_project": "dforce-network",
+        "token_id": "dforce-network_usx",
+        "symbol": "USX",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "",
+        "color_hex": "#4353FF"
+    },
+    {
+        "owner_project": "vesta-protocol",
+        "token_id": "vesta-protocol_vst",
+        "symbol": "VST",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "",
+        "color_hex": "#2E8B7F"
+    },
+    {
+        "owner_project": "verified-usd",
+        "token_id": "verified-usd_usdv",
+        "symbol": "USDV",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "",
+        "color_hex": "#2E5BFF"
+    },
+    {
         "owner_project": "fiat24",
         "token_id": "fiat24_usd24",
         "symbol": "USD24",
@@ -2257,10 +2335,6 @@ address_mapping = {
             "address": "0x05968f40939fdc016ad58f82cd08da884825ad55",
             "decimals": 18
         },
-        "EURe_eureold": {
-            "address": "0x3231cb76718cdef2155fc47b5286d82e6eda273f",
-            "decimals": 18
-        },
         "stasis_eurs": {
             "address": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
             "decimals": 2
@@ -2438,6 +2512,18 @@ address_mapping = {
         },
         "allunity_chfau": {
             "address": "0xbd4dfc058eb95b8de5ceaf39966a1a70f5556f78",
+            "decimals": 6
+        },
+        "tetra-cadd_cadd": {
+            "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+            "decimals": 18
+        },
+        "deuro_deuro": {
+            "address": "0xba3f535bbcccca2a154b573ca6c5a49baae0a3ea",
+            "decimals": 18
+        },
+        "gyen_gyen": {
+            "address": "0xc08512927d12348f6620a698105e1baac6ecd911",
             "decimals": 6
         }
     },
@@ -2787,6 +2873,10 @@ address_mapping = {
         "twin-finance_vent": {
             "address": "0xa1685112cb61210ab2a929c9ce370a4fd381d8be",
             "decimals": 18
+        },
+        "tetra-cadd_cadd": {
+            "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2990,10 +3080,6 @@ address_mapping = {
         },
         "monerium_usde": {
             "address": "0x91e2b584908c2807efc9f846e0c2a1fe875c5141",
-            "decimals": 18
-        },
-        "EURe_eureold": {
-            "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
             "decimals": 18
         },
         "stasis_eurs": {
@@ -3293,6 +3379,26 @@ address_mapping = {
                 "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
                 "0x418a277abd6d2742f8a467d134956c2618f4926d"
             ]
+        },
+        "deuro_deuro": {
+            "address": "0x5e85faf503621830ca857a5f38b982e0cc57d537",
+            "decimals": 18
+        },
+        "gyen_gyen": {
+            "address": "0x589d35656641d6ab57a545f08cf473ecd9b6d5f7",
+            "decimals": 6
+        },
+        "dforce-network_usx": {
+            "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+            "decimals": 18
+        },
+        "vesta-protocol_vst": {
+            "address": "0x64343594ab9b56e99087bfa6f2335db24c2d1f17",
+            "decimals": 18
+        },
+        "verified-usd_usdv": {
+            "address": "0x323665443cef804a3b5206103304bd4872ea4253",
+            "decimals": 6
         }
     },
     "starknet": {

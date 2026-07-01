@@ -5,7 +5,7 @@
     "evm_chain_id": 2020,
     "name": "Ronin",
     "name_short": "Ronin",
-    "bucket": "Others",
+    "bucket": "Superchain",
 
     "ecosystem_old": [
         "all-chains"
@@ -29,7 +29,7 @@
     "api_in_api_labels": false,
     "api_in_api_apps": false,
     "api_in_api_user_insights": false,
-    "api_api_deployment_flag": "DEV",
+    "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
         "blockspace"
     ],
@@ -41,8 +41,8 @@
         "blockspace": "locked"
     },
 
-    "aliases_l2beat": null,
-    "aliases_l2beat_slug": null,
+    "aliases_l2beat": "roninnetwork",
+    "aliases_l2beat_slug": "ronin-network",
     "aliases_coingecko": "ronin",
     "aliases_coingecko_chain": "ronin",
     "aliases_rhino": null,
@@ -56,7 +56,7 @@
     "metadata_symbol": "RON",
     "metadata_gas_token": "RON",
     "metadata_launch_date": "2021-01-25",
-    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_da_layer": "EigenDA",
     "metadata_technology": "Optimistic Rollup",
     "metadata_purpose": "Universal (EVM)",
     "metadata_stack": {
