@@ -2039,6 +2039,96 @@ coin_mapping = [
         "fiat": "usd",
         "logo": "",
         "color_hex": "#2E5BFF"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_usd24",
+        "symbol": "USD24",
+        "coingecko_id": [
+            "fiat24-usd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/25598/large/USD24.png?1696524732",
+        "color_hex": "#6235ff"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_eur24",
+        "symbol": "EUR24",
+        "coingecko_id": [
+            "fiat24-eur"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/33297/large/EUR24.png?1701402541",
+        "color_hex": "#7848ff"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_chf24",
+        "symbol": "CHF24",
+        "coingecko_id": [
+            "fiat24-chf"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "chf",
+        "logo": "https://coin-images.coingecko.com/coins/images/33296/large/CHF24.png?1701402516",
+        "color_hex": "#9060ff"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_cnh24",
+        "symbol": "CNH24",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cny",
+        "logo": "https://mantlescan.xyz/token/images/ch32.png",
+        "color_hex": "#a87aff"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_jpy24",
+        "symbol": "JPY24",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "jpy",
+        "logo": "https://mantlescan.xyz/token/images/jpy24_32.svg",
+        "color_hex": "#4d24e0"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_sgd24",
+        "symbol": "SGD24",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "sgd",
+        "logo": "https://mantlescan.xyz/token/images/sgd24_32.svg",
+        "color_hex": "#3818c0"
+    },
+    {
+        "owner_project": "fiat24",
+        "token_id": "fiat24_hkd24",
+        "symbol": "HKD24",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "hkd",
+        "logo": "https://mantlescan.xyz/token/images/hkd24_32.svg",
+        "color_hex": "#2a0da0"
     }
 ]
 
@@ -3254,6 +3344,42 @@ address_mapping = {
             "address": "0x3ed03e95dd894235090b3d4a49e0c3239edce59e",
             "decimals": 18
         },
+        "fiat24_usd24": {
+            "address": "0xbe00f3db78688d9704bcb4e0a827aea3a9cc0d62",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_eur24": {
+            "address": "0x2c5d06f591d0d8cd43ac232c2b654475a142c7da",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_chf24": {
+            "address": "0xd41f1f0cf89fd239ca4c1f8e8ada46345c86b0a4",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_cnh24": {
+            "address": "0x7288ac74d211735374a23707d1518dcbbc0144fd",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
         "deuro_deuro": {
             "address": "0x5e85faf503621830ca857a5f38b982e0cc57d537",
             "decimals": 18
@@ -3564,6 +3690,69 @@ address_mapping = {
         "worldlibertyfinancial_usd1": {
             "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
             "decimals": 18
+        },
+        "fiat24_usd24": {
+            "address": "0xd598839598bbf508b97697b7d9e80054d4bcaacc",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_eur24": {
+            "address": "0x0578be9c858e6562dd8cd11a738b89ca48194da5",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_chf24": {
+            "address": "0x53587a05ccddce555c2cd7ce4c9c5bc3d912e2f3",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_cnh24": {
+            "address": "0xa0af0c397cb0a52f5e8bc7bb89068dddfae9f211",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_jpy24": {
+            "address": "0x3bc9fc0460cac2ddd352848ecc0bfe204c220717",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_sgd24": {
+            "address": "0x8f7f92f2a0247cc8660c4c4ef69582bc6849b4d9",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
+        },
+        "fiat24_hkd24": {
+            "address": "0x64266a15432004708e5fca0239f664d069853374",
+            "decimals": 2,
+            "exclude_balances": [
+                "0xaddfcb8c9a0a1d91c5a68963f2e75f5a31dcdc88",
+                "0xe052a724f0c888623ffbc0cd79bb4be0f475f167",
+                "0x418a277abd6d2742f8a467d134956c2618f4926d"
+            ]
         }
     },
     "megaeth": {
