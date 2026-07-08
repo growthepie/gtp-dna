@@ -2129,6 +2129,20 @@ coin_mapping = [
         "fiat": "hkd",
         "logo": "https://mantlescan.xyz/token/images/hkd24_32.svg",
         "color_hex": "#2a0da0"
+    },
+    {
+        "owner_project": "sofi",
+        "token_id": "sofi_sofid",
+        "symbol": "SOFID",
+        "coingecko_id": [
+            "sofiusd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://assets.coingecko.com/coins/images/71688/large/CRY25-3266080_StableCoinLogo.png?1768922282",
+        "color_hex": "#00A9CE"
     }
 ]
 
@@ -2524,6 +2538,10 @@ address_mapping = {
         },
         "gyen_gyen": {
             "address": "0xc08512927d12348f6620a698105e1baac6ecd911",
+            "decimals": 6
+        },
+        "sofi_sofid": {
+            "address": "0x0cb6d03b0ac88a463f67b7ad99f9f3ec4678092e",
             "decimals": 6
         }
     },
