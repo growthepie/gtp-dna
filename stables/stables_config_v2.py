@@ -4018,5 +4018,23 @@ address_mapping = {
             "address": "0x63c6e9f027947be84d390cfa7b2332d13b529353",
             "decimals": 6
         }
+    },
+    "robinhood": {
+        "circlefin_usdc": {
+            "address": "0x3884564ba51b349e7661c7e28ad947dee327fedf",
+            "decimals": 6
+        },
+        "tetherto_usdt": {
+            "address": "0xe246bc49b0598d7cd9f0ead48b885034f1254380",
+            "decimals": 6
+        },
+        "paxosglobal_usdg": {
+            "address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+            "decimals": 6
+        },
+        "ethena_usde": {
+            "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+            "decimals": 18
+        }
     }
 }
