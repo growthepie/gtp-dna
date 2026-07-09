@@ -1,0 +1,121 @@
+{
+    "origin_key": "robinhood",
+    "caip2": "eip155:4663",
+    "da_mapping": null,
+    "evm_chain_id": 4663,
+    "name": "Robinhood Chain",
+    "name_short": "Robinhood",
+    "bucket": "Arbitrum Chains",
+    "ecosystem_old": [
+        "all-chains"
+    ],
+    "colors": {
+        "light": [
+            "#00C805",
+            "#00C805"
+        ],
+        "dark": [
+            "#00C805",
+            "#00C805"
+        ],
+        "darkTextOnBackground": true
+    },
+    "chain_type": "L2",
+    "api_in_api_main": true,
+    "api_in_api_fees": false,
+    "api_in_api_economics": true,
+    "api_in_api_labels": true,
+    "api_in_api_apps": true,
+    "api_api_deployment_flag": "DEV",
+    "api_api_exclude_metrics": [
+        "fdv",
+        "market_cap"
+    ],
+    "api_tab_status": {
+        "overview": "active",
+        "fundamentals": "active",
+        "economics": "locked",
+        "apps": "active",
+        "blockspace": "active"
+    },
+    "aliases_l2beat": "robinhood",
+    "aliases_l2beat_slug": "robinhood",
+    "aliases_coingecko": null,
+    "aliases_coingecko_chain": null,
+    "aliases_rhino": null,
+    "aliases_blockscout_url": "https://robinhoodchain.blockscout.com/api/v2/",
+    "aliases_defillama": "robinhood-chain",
+    "aliases_dune": "robinhood",
+    "deployed_supplyreader": null,
+    "metadata_chain_type": "rollup",
+    "metadata_description": "Robinhood Chain is an Arbitrum Orbit Layer 2 built for financial services and tokenized real-world assets.",
+    "metadata_symbol": null,
+    "metadata_gas_token": "ETH",
+    "metadata_launch_date": "2026-07-01",
+    "metadata_da_layer": "Ethereum (blobs)",
+    "metadata_technology": "Optimistic Rollup",
+    "metadata_purpose": "Universal (EVM), RWA",
+    "metadata_stack": {
+        "label": "Arbitrum Nitro",
+        "url": "https://arbitrum.io/orbit"
+    },
+    "metadata_raas": "Self-hosted",
+    "links": {
+        "website": "https://robinhood.com/eu/en/chain/",
+        "docs": "https://docs.robinhood.com/chain/",
+        "github": null,
+        "socials": {
+            "Twitter": "https://x.com/RobinhoodApp",
+            "Blog": "https://robinhood.com/us/en/newsroom/"
+        },
+        "block_explorers": {
+            "Blockscout": "https://robinhoodchain.blockscout.com/"
+        },
+        "bridges": {
+            "Arbitrum Bridge": "https://docs.robinhood.com/chain/bridging/"
+        },
+        "rpcs": {
+            "Mainnet": "https://rpc.mainnet.chain.robinhood.com"
+        },
+        "others": {
+            "L2BEAT": "https://l2beat.com/scaling/projects/robinhood"
+        }
+    },
+    "runs_aggregate_blockspace": true,
+    "runs_aggregate_addresses ": true,
+    "runs_aggregate_apps": true,
+    "runs_contract_metadata": false,
+    "runs_archive_raw_tx": true,
+    "runs_delete_archived_raw_tx": true,
+    "archive_tables": [
+        "fact_active_addresses",
+        "blockspace_fact_contract_level_hourly",
+        "uops"
+    ],
+    "backfiller_backfiller_on": false,
+    "backfiller_batch_size": 10,
+    "cross_check_type": "l2beat",
+    "circulating_supply_token_address": null,
+    "circulating_supply_token_deployment_date": null,
+    "circulating_supply_token_deployment_origin_key": null,
+    "circulating_supply_token_circulating_supply_function": null,
+    "events": [
+        {
+            "date": "2026-02-10",
+            "type": "testnet_launch",
+            "title": "Robinhood Chain Public Testnet Launch",
+            "short_title": "Testnet Launch",
+            "description": "Robinhood opened its Arbitrum-based Layer 2 testnet to developers and infrastructure providers.",
+            "source": "https://robinhood.com/us/en/newsroom/robinhood-chain-launches-public-testnet/"
+        },
+        {
+            "date": "2026-07-01",
+            "type": "mainnet_launch",
+            "title": "Robinhood Chain Public Mainnet Launch",
+            "short_title": "Mainnet Launch",
+            "description": "Robinhood Chain opened its permissionless public mainnet for financial services and tokenized real-world assets.",
+            "source": "https://robinhood.com/us/en/newsroom/robinhood-accelerates-global-expansion-robinhood-chain-mainnet-stock-tokens-agentic-trading/"
+        }
+    ],
+    "labeling_avg_block_time_seconds": 0.1
+}
