@@ -2288,3 +2288,28 @@ ronin:
       to_address: "0x45dA2CD511DA5FEAa535eBF166E628314a65843a"
       method: "0x82ecf2f6"
       comment: "create, DisputeGameFactory (first used 2026-05-12)"
+
+robinhood:
+  name: "Robinhood Chain"
+  l1:
+    - from_address: null
+      to_address: "0xBd0D173EEb87D57A09521c24388a12789F33ba96"
+      method: "0x917cf8ac"
+      comment: "addSequencerL2BatchFromBlobsDelayProof (first used 2026-04-30)"
+    - from_address: null
+      to_address: "0xBd0D173EEb87D57A09521c24388a12789F33ba96"
+      method: "0x3e5aa082"
+      comment: "addSequencerL2BatchFromBlobs (first used 2026-06-29)"
+    - from_address: null
+      to_address: "0x23A19d23e89166adedbDcB432518AB01e4272D94"
+      method: "0x3b86de19"
+      comment: "newStakeOnNewAssertion (first used 2026-04-30)"
+    - from_address: null
+      to_address: "0x23A19d23e89166adedbDcB432518AB01e4272D94"
+      method: "0x10b98a35"
+      comment: "confirmAssertion (first used 2026-05-07)"
+  beacon:
+    - from_address: "0xDaa526086787d9DEbE1D7F3FFdb1fE50cf8687F4"
+      to_address: null
+      method: null
+      comment: "blob producer (first used 2026-04-30)"
