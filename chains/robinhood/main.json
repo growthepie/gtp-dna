@@ -5,6 +5,7 @@
     "evm_chain_id": 4663,
     "name": "Robinhood Chain",
     "name_short": "Robinhood",
+    "company": "Robinhood",
     "bucket": "Arbitrum Chains",
     "ecosystem_old": [
         "all-chains"
