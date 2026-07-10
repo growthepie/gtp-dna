@@ -28,8 +28,6 @@
     "api_in_api_apps": true,
     "api_api_deployment_flag": "PROD",
     "api_api_exclude_metrics": [
-        "profit",
-        "rent_paid",
         "fdv",
         "market_cap"
     ],
