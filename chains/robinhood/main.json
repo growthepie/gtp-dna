@@ -36,8 +36,8 @@
         "overview": "active",
         "fundamentals": "active",
         "economics": "locked",
-        "apps": "locked",
-        "blockspace": "locked"
+        "apps": "active",
+        "blockspace": "active"
     },
     "aliases_l2beat": "robinhood",
     "aliases_l2beat_slug": "robinhood",
