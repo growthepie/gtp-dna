@@ -105,8 +105,7 @@
     "backfiller_backfiller_on": true,
     "backfiller_batch_size": 20,
 
-    "cross_check_url": "https://lineascan.build/chart/tx?output=csv",
-    "cross_check_type": "etherscan",
+    "cross_check_type": "l2beat",
     
     "circulating_supply_token_address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
     "circulating_supply_token_deployment_date": "2025-09-09",
