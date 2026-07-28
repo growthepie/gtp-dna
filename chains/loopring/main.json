@@ -95,9 +95,7 @@
     "runs_archive_raw_tx": true,
     "runs_delete_archived_raw_tx": true,
 
-    "archive_tables": [
-        "fact_active_addresses"
-    ],
+    "archive_tables": [],
 
     "backfiller_backfiller_on": null,
     "backfiller_batch_size": 20,
