@@ -2143,6 +2143,90 @@ coin_mapping = [
         "fiat": "usd",
         "logo": "https://assets.coingecko.com/coins/images/71688/large/CRY25-3266080_StableCoinLogo.png?1768922282",
         "color_hex": "#00A9CE"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wars",
+        "symbol": "wARS",
+        "coingecko_id": [
+            "argentine-peso"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "ars",
+        "logo": "https://coin-images.coingecko.com/coins/images/70846/large/world_logos_wars_logo_3.png?1764176749",
+        "color_hex": "#009FE3"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wbrl",
+        "symbol": "wBRL",
+        "coingecko_id": [
+            "brazilian-real"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "brl",
+        "logo": "https://coin-images.coingecko.com/coins/images/70862/large/wbrl.png?1764272108",
+        "color_hex": "#009245"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wmxn",
+        "symbol": "wMXN",
+        "coingecko_id": [
+            "mexican-peso"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "mxn",
+        "logo": "https://coin-images.coingecko.com/coins/images/70880/large/wmxn_logo_1.png?1764392404",
+        "color_hex": "#00562B"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wcop",
+        "symbol": "wCOP",
+        "coingecko_id": [
+            "colombian-peso"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cop",
+        "logo": "https://coin-images.coingecko.com/coins/images/70887/large/wcop_logo_1.png?1764394538",
+        "color_hex": "#FCD116"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wpen",
+        "symbol": "wPEN",
+        "coingecko_id": [
+            "peruvian-sol"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "pen",
+        "logo": "https://coin-images.coingecko.com/coins/images/70975/large/wpen_logo_1.png?1764954695",
+        "color_hex": "#D91023"
+    },
+    {
+        "owner_project": "ripio",
+        "token_id": "ripio_wclp",
+        "symbol": "wCLP",
+        "coingecko_id": [
+            "chilean-peso"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "clp",
+        "logo": "https://coin-images.coingecko.com/coins/images/70976/large/wclp_logo_1.png?1764954870",
+        "color_hex": "#ED342F"
     }
 ]
 
@@ -2543,6 +2627,30 @@ address_mapping = {
         "sofi_sofid": {
             "address": "0x0cb6d03b0ac88a463f67b7ad99f9f3ec4678092e",
             "decimals": 6
+        },
+        "ripio_wars": {
+            "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+            "decimals": 18
+        },
+        "ripio_wbrl": {
+            "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+            "decimals": 18
+        },
+        "ripio_wmxn": {
+            "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+            "decimals": 18
+        },
+        "ripio_wcop": {
+            "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+            "decimals": 18
+        },
+        "ripio_wpen": {
+            "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+            "decimals": 18
+        },
+        "ripio_wclp": {
+            "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
         }
     },
     "zksync_era": {
@@ -2895,6 +3003,30 @@ address_mapping = {
         "tetra-cadd_cadd": {
             "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
             "decimals": 18
+        },
+        "ripio_wars": {
+            "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+            "decimals": 18
+        },
+        "ripio_wbrl": {
+            "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+            "decimals": 18
+        },
+        "ripio_wmxn": {
+            "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+            "decimals": 18
+        },
+        "ripio_wcop": {
+            "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+            "decimals": 18
+        },
+        "ripio_wpen": {
+            "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+            "decimals": 18
+        },
+        "ripio_wclp": {
+            "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
         }
     },
     "celo": {
@@ -2992,6 +3124,30 @@ address_mapping = {
         "brla-digital_brla": {
             "address": "0xfecb3f7c54e2caae9dc6ac9060a822d47e053760",
             "decimals": 18
+        },
+        "ripio_wars": {
+            "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+            "decimals": 18
+        },
+        "ripio_wbrl": {
+            "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+            "decimals": 18
+        },
+        "ripio_wmxn": {
+            "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+            "decimals": 18
+        },
+        "ripio_wcop": {
+            "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+            "decimals": 18
+        },
+        "ripio_wpen": {
+            "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+            "decimals": 18
+        },
+        "ripio_wclp": {
+            "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
         }
     },
     "worldchain": {
@@ -3010,6 +3166,30 @@ address_mapping = {
         "idrx_idrx": {
             "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
             "decimals": 2
+        },
+        "ripio_wars": {
+            "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+            "decimals": 18
+        },
+        "ripio_wbrl": {
+            "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+            "decimals": 18
+        },
+        "ripio_wmxn": {
+            "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+            "decimals": 18
+        },
+        "ripio_wcop": {
+            "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+            "decimals": 18
+        },
+        "ripio_wpen": {
+            "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+            "decimals": 18
+        },
+        "ripio_wclp": {
+            "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
         }
     },
     "polygon_pos": {
@@ -3184,6 +3364,30 @@ address_mapping = {
         "polymarket_pusd": {
             "address": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
             "decimals": 6
+        },
+        "ripio_wars": {
+            "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+            "decimals": 18
+        },
+        "ripio_wbrl": {
+            "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+            "decimals": 18
+        },
+        "ripio_wmxn": {
+            "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+            "decimals": 18
+        },
+        "ripio_wcop": {
+            "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+            "decimals": 18
+        },
+        "ripio_wpen": {
+            "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+            "decimals": 18
+        },
+        "ripio_wclp": {
+            "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
         }
     },
     "arbitrum": {
