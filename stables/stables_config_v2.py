@@ -2227,6 +2227,156 @@ coin_mapping = [
         "fiat": "clp",
         "logo": "https://coin-images.coingecko.com/coins/images/70976/large/wclp_logo_1.png?1764954870",
         "color_hex": "#ED342F"
+    },
+    {
+        "owner_project": "threshold-network",
+        "token_id": "thusd",
+        "symbol": "thUSD",
+        "coingecko_id": [
+            "threshold-usd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/32274/large/thusd.png?1697180081",
+        "color_hex": "#BD00FF"
+    },
+    {
+        "owner_project": "abracadabra",
+        "token_id": "mim",
+        "symbol": "MIM",
+        "coingecko_id": [
+            "magic-internet-money"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/16786/large/mimlogopng.png?1696516358",
+        "color_hex": "#FED955"
+    },
+    {
+        "owner_project": "aladdindao",
+        "token_id": "fxusd",
+        "symbol": "fxUSD",
+        "coingecko_id": [
+            "f-x-protocol-fxusd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/36202/large/fxUSD.jpg?1710833113",
+        "color_hex": "#ABC069"
+    },
+    {
+        "owner_project": "metronome-autonomoussoftware",
+        "token_id": "msusd",
+        "symbol": "msUSD",
+        "coingecko_id": [
+            "metronome-synth-usd"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/67504/large/metronome_msusd.png?1753015705",
+        "color_hex": "#6088E0"
+    },
+    {
+        "owner_project": "gyrostable",
+        "token_id": "gyd",
+        "symbol": "GYD",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe07F9D810a48ab5c3c914BA3cA53AF14E4491e8A/logo.png",
+        "color_hex": "#6FD8D8"
+    },
+    {
+        "owner_project": "angle-protocol",
+        "token_id": "usda",
+        "symbol": "USDA",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0000206329b97DB379d5E1Bf586BbDB969C63274/logo.png",
+        "color_hex": "#2BC8A4"
+    },
+    {
+        "owner_project": "quantoz",
+        "token_id": "usdq",
+        "symbol": "USDQ",
+        "coingecko_id": [
+            "quantoz-usdq"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "usd",
+        "logo": "https://coin-images.coingecko.com/coins/images/51852/large/exchange-logo_USDQ.png?1749836750",
+        "color_hex": "#00246C"
+    },
+    {
+        "owner_project": "quantoz",
+        "token_id": "eurq",
+        "symbol": "EURQ",
+        "coingecko_id": [
+            "quantoz-eurq"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/51853/large/exchange-logo_EURQ.png?1749836767",
+        "color_hex": "#009CA8"
+    },
+    {
+        "owner_project": "schuman-financial",
+        "token_id": "europ",
+        "symbol": "EUROP",
+        "coingecko_id": [
+            "schuman-europ"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/52132/large/europ-symbol-rgb.jpg?1732634862",
+        "color_hex": "#132330"
+    },
+    {
+        "owner_project": "rupiah-token",
+        "token_id": "idrt",
+        "symbol": "IDRT",
+        "coingecko_id": [
+            "rupiah-token"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "idr",
+        "logo": "https://coin-images.coingecko.com/coins/images/9441/large/57421944_1371636006308255_3647136573922738176_n.jpg?1696509533",
+        "color_hex": "#BD4137"
+    },
+    {
+        "owner_project": "audxtoken",
+        "token_id": "audx",
+        "symbol": "AUDX",
+        "coingecko_id": [
+            "aussie-dollar-token"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "aud",
+        "logo": "https://coin-images.coingecko.com/coins/images/71222/large/AUDX_Logo.png?1766480331",
+        "color_hex": "#4FBFBF"
     }
 ]
 
@@ -2651,6 +2801,54 @@ address_mapping = {
         "ripio_wclp": {
             "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
             "decimals": 18
+        },
+        "thusd": {
+            "address": "0xcfc5bd99915aaa815401c5a41a927ab7a38d29cf",
+            "decimals": 18
+        },
+        "mim": {
+            "address": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+            "decimals": 18
+        },
+        "dforce-network_usx": {
+            "address": "0x0a5e677a6a24b2f1a2bf4f3bffc443231d2fdec8",
+            "decimals": 18
+        },
+        "fxusd": {
+            "address": "0x085780639cc2cacd35e474e71f4d000e2405d8f6",
+            "decimals": 18
+        },
+        "msusd": {
+            "address": "0xab5eb14c09d416f0ac63661e57edb7aecdb9befa",
+            "decimals": 18
+        },
+        "gyd": {
+            "address": "0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
+        },
+        "usdq": {
+            "address": "0xc83e27f270cce0a3a3a29521173a83f402c1768b",
+            "decimals": 6
+        },
+        "eurq": {
+            "address": "0x8df723295214ea6f21026eeeb4382d475f146f9f",
+            "decimals": 6
+        },
+        "europ": {
+            "address": "0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51",
+            "decimals": 6
+        },
+        "idrt": {
+            "address": "0x998ffe1e43facffb941dc337dd0468d52ba5b48a",
+            "decimals": 2
+        },
+        "audx": {
+            "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
+            "decimals": 18
         }
     },
     "zksync_era": {
@@ -3027,6 +3225,22 @@ address_mapping = {
         "ripio_wclp": {
             "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
             "decimals": 18
+        },
+        "fxusd": {
+            "address": "0x55380fe7a1910dff29a47b622057ab4139da42c5",
+            "decimals": 18
+        },
+        "msusd": {
+            "address": "0x526728dbc96689597f85ae4cd716d4f7fccbae9d",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
+        },
+        "audx": {
+            "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
+            "decimals": 18
         }
     },
     "celo": {
@@ -3388,6 +3602,38 @@ address_mapping = {
         "ripio_wclp": {
             "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
             "decimals": 18
+        },
+        "mim": {
+            "address": "0x49a0400587a7f65072c87c4910449fdcc5c47242",
+            "decimals": 18
+        },
+        "dforce-network_usx": {
+            "address": "0xcf66eb3d546f0415b368d98a95eaf56ded7aa752",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
+        },
+        "usdq": {
+            "address": "0xb291996477504506bf5f583102b5b5ea5d1e40e0",
+            "decimals": 6
+        },
+        "eurq": {
+            "address": "0xd571edb2ef29df10fcd6200fd6d0ed2389983db3",
+            "decimals": 6
+        },
+        "europ": {
+            "address": "0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51",
+            "decimals": 6
+        },
+        "idrt": {
+            "address": "0x554cd6bdd03214b10aafa3e0d4d42de0c5d2937b",
+            "decimals": 6
+        },
+        "audx": {
+            "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
+            "decimals": 18
         }
     },
     "arbitrum": {
@@ -3621,6 +3867,18 @@ address_mapping = {
         "verified-usd_usdv": {
             "address": "0x323665443cef804a3b5206103304bd4872ea4253",
             "decimals": 6
+        },
+        "mim": {
+            "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
+        },
+        "audx": {
+            "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
+            "decimals": 18
         }
     },
     "starknet": {
@@ -3736,6 +3994,22 @@ address_mapping = {
         "openusdt": {
             "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
             "decimals": 6
+        },
+        "mim": {
+            "address": "0xb153fb3d196a8eb25522705560ac152eeec57901",
+            "decimals": 18
+        },
+        "dforce-network_usx": {
+            "address": "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9",
+            "decimals": 18
+        },
+        "msusd": {
+            "address": "0x9dabae7274d28a45f0b65bf8ed201a5731492ca0",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
         }
     },
     "taiko": {
@@ -3839,6 +4113,10 @@ address_mapping = {
         },
         "paytrie_cadc": {
             "address": "0xa0b18e70387ba72d1c7038bc0bd3a05e5a2287f6",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
             "decimals": 18
         }
     },
