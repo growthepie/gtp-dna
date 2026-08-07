@@ -1827,6 +1827,10 @@ ink:
       to_address: null
       method: "0x472777c6"
       comment: "attack, by central resolver (first used 2026-07-29)"
+    - from_address: "0x4D7FD6F6F576c0d5b0E68D7041da8011efa385d5"
+      to_address: null
+      method: "0x60e27464"
+      comment: "claimCredit, by central resolver (first used 2026-08-04)"
   beacon:
     - from_address: "0x500d7Ea63CF2E501dadaA5feeC1FC19FE2Aa72Ac"
       to_address: null
