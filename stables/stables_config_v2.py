@@ -2377,6 +2377,20 @@ coin_mapping = [
         "fiat": "aud",
         "logo": "https://coin-images.coingecko.com/coins/images/71222/large/AUDX_Logo.png?1766480331",
         "color_hex": "#4FBFBF"
+    },
+    {
+        "owner_project": "revolut",
+        "token_id": "revolut_eurr",
+        "symbol": "EURR",
+        "coingecko_id": [
+            "revolut-euro"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "eur",
+        "logo": "https://coin-images.coingecko.com/coins/images/102174782/large/EURR-96x96_4x.png?1784807041",
+        "color_hex": "#0666EB"
     }
 ]
 
@@ -2849,6 +2863,10 @@ address_mapping = {
         "audx": {
             "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
             "decimals": 18
+        },
+        "revolut_eurr": {
+            "address": "0x8e9c32a536ab623a2e0e9961bce6f5fe7504e084",
+            "decimals": 6
         }
     },
     "zksync_era": {
@@ -3634,6 +3652,10 @@ address_mapping = {
         "audx": {
             "address": "0xd687759f35bb747a29246a4b9495c8f52c49e00c",
             "decimals": 18
+        },
+        "revolut_eurr": {
+            "address": "0x11b20f798b70df2201d8f550addcc3378b33dd4a",
+            "decimals": 6
         }
     },
     "arbitrum": {
