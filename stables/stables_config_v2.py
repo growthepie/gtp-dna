@@ -3656,6 +3656,10 @@ address_mapping = {
         "revolut_eurr": {
             "address": "0x11b20f798b70df2201d8f550addcc3378b33dd4a",
             "decimals": 6
+        },
+        "paypal_pyusd": {
+            "address": "0x99af3eea856556646c98c8b9b2548fe815240750",
+            "decimals": 6
         }
     },
     "arbitrum": {
