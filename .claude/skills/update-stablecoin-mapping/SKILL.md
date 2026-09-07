@@ -127,6 +127,14 @@ If scripts return no data for a specific chain:
 - `https://defillama.com/stablecoins/{aliases_defillama}` — lists stablecoins with addresses
 - The chain's block explorer — search by token symbol
 
+#### Celo authoritative registry
+
+For `origin_key == "celo"`, also audit Celo's official stablecoin documentation:
+
+- `https://docs.celo.org/build-on-celo/build-with-local-stablecoin`
+
+Use its **Celo Mainnet** contract addresses, not Celo Sepolia testnet addresses. Cross-check new or conflicting entries against the issuer's current deployment documentation and CeloScan before proposing a change. Treat the page's GoodDollar `G$` entry as a UBI token rather than a fiat-pegged stablecoin unless the repository's eligibility rules change.
+
 ## Step 4 — Verify addresses
 
 - For `metric_key == "bridged"` tokens: confirm the address is the bridged token on the L2 (not the L1 escrow). Verify `bridged_origin_chain` and `bridged_origin_token_id` are correct — these prevent double-counting supply.

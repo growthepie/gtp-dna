@@ -2391,6 +2391,32 @@ coin_mapping = [
         "fiat": "eur",
         "logo": "https://coin-images.coingecko.com/coins/images/102174782/large/EURR-96x96_4x.png?1784807041",
         "color_hex": "#0666EB"
+    },
+    {
+        "owner_project": "mento-protocol",
+        "token_id": "mento_ghsm",
+        "symbol": "GHSm",
+        "coingecko_id": [
+            "cghs"
+        ],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "ghs",
+        "logo": None,
+        "color_hex": "#5000C0"
+    },
+    {
+        "owner_project": "minteo",
+        "token_id": "minteo_copm",
+        "symbol": "COPM",
+        "coingecko_id": [],
+        "metric_key": "direct",
+        "bridged_origin_chain": None,
+        "bridged_origin_token_id": None,
+        "fiat": "cop",
+        "logo": "https://minteo.com/android-chrome-512x512.png",
+        "color_hex": "#FFD400"
     }
 ]
 
@@ -3137,7 +3163,7 @@ address_mapping = {
             "decimals": 6
         },
         "cngn_cngn": {
-            "address": "0xc930784d6e14e2fc2a1f49be1068dc40f24762d3",
+            "address": "0x46c85152bfe9f96829aa94755d9f915f9b10ef5f",
             "decimals": 6
         },
         "vnx-li_veur": {
@@ -3379,6 +3405,26 @@ address_mapping = {
         },
         "ripio_wclp": {
             "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+            "decimals": 18
+        },
+        "usda": {
+            "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+            "decimals": 18
+        },
+        "mento_ghsm": {
+            "address": "0xfaea5f3404bba20d3cc2f8c4b0a888f55a3c7313",
+            "decimals": 18
+        },
+        "tetherto_usat": {
+            "address": "0xd2ab3c9a02dbbab236bfec45d1d755df4267f771",
+            "decimals": 6
+        },
+        "cngn_cngn": {
+            "address": "0xf6829d7393dae24509eb1e52ee8e572e2e271a4f",
+            "decimals": 6
+        },
+        "minteo_copm": {
+            "address": "0xc92e8fc2947e32f2b574cca9f2f12097a71d5606",
             "decimals": 18
         }
     },
@@ -3660,6 +3706,10 @@ address_mapping = {
         "paypal_pyusd": {
             "address": "0x99af3eea856556646c98c8b9b2548fe815240750",
             "decimals": 6
+        },
+        "minteo_copm": {
+            "address": "0x12050c705152931cfee3dd56c52fb09dea816c23",
+            "decimals": 18
         }
     },
     "arbitrum": {
@@ -4511,6 +4561,10 @@ address_mapping = {
         "idrx_idrx": {
             "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
             "decimals": 2
+        },
+        "cngn_cngn": {
+            "address": "0xc7ab2c35ea37236e644c24a4e4a1911c082887c0",
+            "decimals": 6
         }
     },
     "ronin": {
